@@ -7,12 +7,6 @@ import time
 from netmiko.cisco_base_connection import CiscoBaseConnection
 
 
-class SSHClient_noauth(SSHClient):
-    def _auth(self, username, *args):
-        self._transport.auth_none(username)
-        return
-
-
 class ZhoneMXK(CiscoBaseConnection):
     """ZhoneMXK Driver."""
 
