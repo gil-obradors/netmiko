@@ -176,7 +176,7 @@ CLASS_MAPPER_BASE = {
     "vyatta_vyos": VyOSSSH,
     "vyos": VyOSSSH,
     "watchguard_fireware": WatchguardFirewareSSH,
-    "zhone_mxk219": ZHoneMXK219SSH,
+    "zhone_mxk219": ZhoneMXK219SSH,
 }
 
 FILE_TRANSFER_MAP = {
