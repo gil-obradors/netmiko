@@ -119,5 +119,5 @@ class ZhoneMXK219Telnet(ZhoneMXK):
         msg = f"Login failed: {self.host}"
         raise NetmikoAuthenticationException(msg)
 
-class ZHoneMXK219SSH(ZhoneMXK):
+class ZhoneMXK219SSH(ZhoneMXK):
     pass
